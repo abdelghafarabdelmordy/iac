@@ -24,7 +24,7 @@ resource "aws_subnet" "public-subnet" {
     Name = var.subnet-name
   }
 }
-#
+
 
 resource "aws_route_table" "rt" {
   vpc_id = aws_vpc.vpc.id
